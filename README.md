@@ -144,3 +144,4 @@ docker run --rm  --volume=`pwd`/app/backend:/usr/src/app/:rw thecodingmachine/ph
 ## Must to read
 
 https://symfony.com/doc/current/configuration.html#configuration-environments
+# symfony-boilerplate
