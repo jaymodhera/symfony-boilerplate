@@ -1,43 +1,49 @@
 <template>
-  <div>
-    <div
-      v-show="usersPending"
-      v-t="{ path: 'components.user.list.pending' }"
-    ></div>
-    <div v-show="error">{{ error }}}</div>
-    {{ errorDelete }}
-    <table v-if="users">
-      <thead>
-        <tr>
-          <th>{{ $t("components.user.list.title") }}</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="user in users" :key="user.id">
-          <td>{{ user.email }}</td>
-          <td>
-            <NuxtLink
-              v-if="!authStore.isAuthUser(user)"
-              :to="`/users/${user.id}`"
-            >
-              <Button severity="secondary">{{
-                $t("components.user.list.edit")
-              }}</Button>
+  <Card class="card">
+    <template #title>
+      <h1 class="font-medium text-3xl text-900">
+        {{ $t("components.user.list.title") }}
+      </h1>
+      <div v-show="usersPending" v-t="{ path: 'components.user.list.pending' }"></div>
+      <div v-show="error">{{ error }}}</div>
+      {{ errorDelete }}
+    </template>
+    <template #content>
+      <DataTable
+        v-if="users"
+        :value="users"
+        scrollable
+        selectionMode="single"
+        :metaKeySelection="false"
+        paginator
+        :rows="10"
+        :rowsPerPageOptions="[10, 20, 50, 100]"
+        scrollHeight="flex"
+        tableStyle="min-width: 10rem"
+      >
+        <Column field="email" :header="$t('components.user.form.email')"></Column>
+        <Column field="username" :header="$t('components.user.list.username')"></Column>
+        <Column field="eidt" :header="$t('components.user.list.edit')">
+          <template #body="slotProps">
+            <NuxtLink v-if="!authStore.isAuthUser(slotProps.data)" :to="`/users/${slotProps.data.id}`">
+              <Button severity="secondary">{{ $t("components.user.list.edit") }}</Button>
             </NuxtLink>
-          </td>
-          <td>
+          </template>
+        </Column>
+        <Column field="delete" :header="$t('components.user.list.delete')">
+          <template #body="slotProps">
             <Button
-              v-if="!authStore.isAuthUser(user)"
+              v-if="!authStore.isAuthUser(slotProps.data)"
               severity="danger"
-              @click="deleteUserClick(user)"
+              @click="deleteUserClick(slotProps.data)"
             >
               {{ $t("components.user.list.delete") }}
             </Button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+          </template>
+        </Column>
+      </DataTable>
+    </template>
+  </Card>
 </template>
 
 <script setup lang="ts">
@@ -66,5 +72,4 @@ const deleteUserClick = async (user: User) => {
   }
 };
 </script>
-
 <style scoped lang="scss"></style>

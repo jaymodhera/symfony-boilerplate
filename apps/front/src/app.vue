@@ -30,9 +30,9 @@ watchEffect(
       !isAuthenticated.value &&
       authUrl.value &&
       decodeURIComponent(href) !== decodeURIComponent(authUrl.value);
-    if (shouldRedirectToLogin) {
-      return navigateTo(authUrl.value, { external: true });
-    }
+    // if (shouldRedirectToLogin) {
+    //   return navigateTo(authUrl.value, { external: true });
+    // }
   },
   {
     flush: "pre",

@@ -31,11 +31,26 @@ export default {
         ok: "Save",
       },
       list: {
+        username: "Username",
         createButton: "New user",
         pending: "Loading users",
         title: "Users",
         edit: "Edit",
         delete: "Delete",
+      },
+    },
+    transaction: {
+      index: {
+        title: "List of transactions",
+        dateTime: "Date / Time",
+        amount: "Amount",
+        payment: "Payment Label",
+        locatiozation: "Localization",
+        identifyPlace: "Identify the place",
+        selectLocation: "Select a location",
+        location: "Location",
+        note: "Note: Please click on the location to select it",
+        pending: "Loading transactions",
       },
     },
     layout: {
@@ -45,6 +60,7 @@ export default {
       menu: {
         appMenu: {
           users: "Users",
+          transactions: "Transactions",
           page1: "page1",
           page2: "page2",
           validation: "validation",
@@ -79,6 +95,19 @@ export default {
     user: {
       index: {
         createButton: "Create an user",
+      },
+    },
+    transaction: {
+      index: {
+        title: "List of transactions",
+        dateTime: "Date / Time",
+        amount: "Amount",
+        payment: "Payment Label",
+        locatiozation: "Localization",
+        identifyPlace: "Identify the place",
+        selectLocation: "Select a location",
+        location: "Location",
+        note: "Note: Please click on the location to select it",
       },
     },
   },

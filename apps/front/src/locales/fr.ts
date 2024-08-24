@@ -30,11 +30,26 @@ export default {
         ok: "Sauvegarder",
       },
       list: {
+        username: "Nom d'utilisateur",
         createButton: "Créer un utilisateur",
         pending: "Chargement des utilisateurs",
         title: "Utilisateurs",
         edit: "Editer",
         delete: "Supprimer",
+      },
+    },
+    transaction: {
+      index: {
+        title: "Liste des transactions",
+        dateTime: "Date / Heure",
+        amount: "Montant",
+        payment: "Label de paiement",
+        locatiozation: "Localisation",
+        identifyPlace: "Identifiez l'emplacement",
+        selectLocation: "Sélectionnez un emplacement",
+        location: "Emplacement",
+        note: "Note: Cliquez sur l'emplacement pour selectionner",
+        pending: "Chargement des transactions",
       },
     },
     layout: {
@@ -44,6 +59,7 @@ export default {
       menu: {
         appMenu: {
           users: "Utilisateurs",
+          transactions: "Transactions",
           page1: "page1",
           page2: "page2",
           validation: "validation",
@@ -78,6 +94,19 @@ export default {
     user: {
       index: {
         createButton: "Créer un utilisateur",
+      },
+    },
+    transaction: {
+      index: {
+        title: "Liste des transactions",
+        dateTime: "Date / heure",
+        amount: "Montant",
+        payment: "Libellé paiement",
+        locatiozation: "Localisation",
+        identifyPlace: "Identifiez le lieu",
+        selectLocation: "Selezionner une localisation",
+        location: "Localisation",
+        note: "Note: Cliquez sur la localisation pour se slectionner",
       },
     },
   },

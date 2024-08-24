@@ -1,0 +1,316 @@
+{
+    "html_attributions": [],
+    "results":
+      [
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8587323, "lng": 151.2100055 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.85739847010727, "lng": 151.2112436298927 },
+                  "southwest":
+                    { "lat": -33.86009812989271, "lng": 151.2085439701072 }
+                }
+            },
+          "name": "Cruise Bar",
+          "place_id": "ChIJi6C1MxquEmsR9-c-3O48ykI",
+          "rating": 4,
+          "types":
+            ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+          "vicinity": "Level 1, 2 and 3, Overseas Passenger Terminal, Circular Quay W, The Rocks"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8675219, "lng": 151.2016502 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86614532010728, "lng": 151.2031259298927 },
+                  "southwest":
+                    { "lat": -33.86884497989272, "lng": 151.2004262701072 }
+                }
+            },
+          "name": "Sydney Harbour Dinner Cruises",
+          "place_id": "ChIJM1mOVTS6EmsRKaDzrTsgids",
+          "types":
+            [
+              "tourist_attraction",
+              "travel_agency",
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+            ],
+          "vicinity": "32 The Promenade, Sydney"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8676569, "lng": 151.2017213 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86629922010728, "lng": 151.2031712798927 },
+                  "southwest":
+                    { "lat": -33.86899887989272, "lng": 151.2004716201073 }
+                }
+            },
+          "name": "Clearview Sydney Harbour Cruises",
+          "place_id": "ChIJNQfwZTiuEmsR1m1x9w0E2V0",
+          "types":
+            [
+              "travel_agency",
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+            ],
+          "vicinity": "32 The Promenade King Street Wharf 5, Sydney"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8677035, "lng": 151.2017297 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86634597010728, "lng": 151.2031781298927 },
+                  "southwest":
+                    { "lat": -33.86904562989272, "lng": 151.2004784701072 }
+                }
+            },
+          "name": "Sydney Harbour Lunch Cruise",
+          "place_id": "ChIJUbf3iDiuEmsROJxXbhYO7cM",
+          "types":
+            [
+              "travel_agency",
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+            ],
+          "vicinity": "5/32 The Promenade, Sydney"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8675883, "lng": 151.2016452 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86623847010728, "lng": 151.2029950298927 },
+                  "southwest":
+                    { "lat": -33.86893812989273, "lng": 151.2002953701073 }
+                }
+            },
+          "name": "Sydney Showboats - Dinner Cruise With Show",
+          "place_id": "ChIJjRuIiTiuEmsRCHhYnrWiSok",
+          "types":
+            [
+              "travel_agency",
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+            ],
+          "vicinity": "32 The Promenade, King Street Wharf, 5, Sydney"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8677035, "lng": 151.2017297 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86634597010728, "lng": 151.2031781298927 },
+                  "southwest":
+                    { "lat": -33.86904562989272, "lng": 151.2004784701072 }
+                }
+            },
+          "name": "Magistic Cruises",
+          "place_id": "ChIJxRjqYTiuEmsRGebAA_chDLE",
+          "types":
+            [
+              "tourist_attraction",
+              "travel_agency",
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+            ],
+          "vicinity": "King Street Wharf, 32 The Promenade, Sydney"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8609391, "lng": 151.2098735 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.85958927010727, "lng": 151.2112233298927 },
+                  "southwest":
+                    { "lat": -33.86228892989272, "lng": 151.2085236701072 }
+                }
+            },
+          "name": "Australian Cruise Group",
+          "place_id": "ChIJpU8KgUKuEmsRKErVGEaa11w",
+          "types":
+            [
+              "travel_agency",
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+            ],
+          "vicinity": "6 Cirular Quay, Sydney"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8686058, "lng": 151.2018206 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86730002010728, "lng": 151.2032717798927 },
+                  "southwest":
+                    { "lat": -33.86999967989272, "lng": 151.2005721201073 }
+                }
+            },
+          "name": "Rhythmboat Cruises",
+          "place_id": "ChIJyWEHuEmuEmsRm9hTkapTCrk",
+          "types":
+            [
+              "travel_agency",
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+            ],
+          "vicinity": "King Street Wharf, King St, Sydney"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8712692, "lng": 151.1898651 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86952792010727, "lng": 151.1914560298927 },
+                  "southwest":
+                    { "lat": -33.87222757989272, "lng": 151.1887563701073 }
+                }
+            },
+          "name": "Glass Island",
+          "place_id": "ChIJnScuboavEmsRyh-FGxhc3pw",
+          "types":
+            ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+          "vicinity": "37 Bank St, Pyrmont"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.85876140000001, "lng": 151.2100004 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.85737742010728, "lng": 151.2111319298927 },
+                  "southwest":
+                    { "lat": -33.86007707989272, "lng": 151.2084322701072 }
+                }
+            },
+          "name": "Junk Lounge",
+          "place_id": "ChIJq9W3HZOvEmsRYtKNTRmq34M",
+          "rating": 4.1,
+          "types": ["restaurant", "food", "point_of_interest", "establishment"],
+          "vicinity": "Level 2, Overseas Passenger Terminal, Circular Quay W, The Rocks"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8677035, "lng": 151.2017297 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86634597010728, "lng": 151.2031781298927 },
+                  "southwest":
+                    { "lat": -33.86904562989272, "lng": 151.2004784701072 }
+                }
+            },
+          "name": "Sydney New Year's Eve Cruises",
+          "place_id": "ChIJ__8_hziuEmsR27ucFXECfOg",
+          "types":
+            [
+              "travel_agency",
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "establishment"
+            ],
+          "vicinity": "King Street Wharf 5, 32 The Promenade, Sydney"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.8669866, "lng": 151.2017231 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86563197010727, "lng": 151.2031347298927 },
+                  "southwest":
+                    { "lat": -33.86833162989272, "lng": 151.2004350701073 }
+                }
+            },
+          "name": "King Street Wharf Darling Harbour",
+          "place_id": "ChIJkfDzJ72vEmsR8xtYbk5f0p0",
+          "types":
+            [
+              "tourist_attraction",
+              "convenience_store",
+              "bowling_alley",
+              "travel_agency",
+              "bar",
+              "restaurant",
+              "food",
+              "point_of_interest",
+              "store",
+              "establishment"
+            ],
+          "vicinity": "The Promenade, Lime St, Sydney"
+        },
+        {
+          "business_status": "OPERATIONAL",
+          "geometry":
+            {
+              "location": { "lat": -33.870383, "lng": 151.1979245 },
+              "viewport":
+                {
+                  "northeast":
+                    { "lat": -33.86901092010727, "lng": 151.1991702798927 },
+                  "southwest":
+                    { "lat": -33.87171057989271, "lng": 151.1964706201073 }
+                }
+            },
+          "name": "The Little Snail Restaurant",
+          "place_id": "ChIJtwapWjeuEmsRcxV5JARHpSk",
+          "rating": 4.5,
+          "types": ["restaurant", "food", "point_of_interest", "establishment"],
+          "vicinity": "3/50 Murray St, Pyrmont"
+        }
+      ],
+    "status": "OK"
+}

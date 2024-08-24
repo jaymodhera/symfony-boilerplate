@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="flex justify-content-end m-3 ">
       <NuxtLink to="/auth/register"
         ><Button>{{ $t("pages.user.index.createButton") }}</Button></NuxtLink
       >
